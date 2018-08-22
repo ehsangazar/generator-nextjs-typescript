@@ -1,4 +1,3 @@
-'use strict';
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
@@ -30,9 +29,18 @@ module.exports = class extends Generator {
       this.templatePath(),
       this.destinationPath(this.props.folderName)
     );
+    this.fs.copy(
+      this.templatePath('_gitignore'),
+      this.destinationPath(this.props.folderName+'/.gitignore')
+    );
+    this.fs.copy(
+      this.templatePath('.*'),
+      this.destinationPath(this.props.folderName)
+    );
   }
 
   install() {
     this.npmInstall()
+    this.npmInstall(['next'], { 'save': true });
   }
 };
