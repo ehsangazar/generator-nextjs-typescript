@@ -1,0 +1,17 @@
+{
+  "name": "generator-frontend-best-practice-boilerplate",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ehsan Gazar <me@ehsangazar.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
