@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ehsan Gazar",
+      "authorEmail": "me@ehsangazar.com",
+      "authorUrl": ""
+    }
+  }
+}
