@@ -14,7 +14,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'folderName',
         message: 'What would you like to name the folder?',
-        default: 'BoilerPlate-Frontend-Best-Practice'
+        default: 'BoilerPlate-NextJS-TypeScript'
       }
     ];
 
@@ -37,10 +37,5 @@ module.exports = class extends Generator {
       this.templatePath('.*'),
       this.destinationPath(this.props.folderName)
     );
-  }
-
-  install() {
-    this.npmInstall()
-    this.npmInstall(['next'], { 'save': true });
   }
 };
