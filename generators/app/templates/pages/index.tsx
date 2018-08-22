@@ -15,7 +15,7 @@ class Index extends React.Component<Props,State> {
       <div>
         <Title>
           Welcome
-        </Title> 
+        </Title>
         to NextJs TypeScript StyledComponent
       </div>
     )

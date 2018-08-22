@@ -16,7 +16,7 @@ Since so many people are trying to start a frontend project, this generator is b
 ## Installation
 
 ```bash
-npm install -g yo && npm install -g bower
+npm install -g yo
 npm install -g generator-frontend-best-practice-boilerplate
 ```
 
