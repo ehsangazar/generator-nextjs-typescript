@@ -1,5 +1,5 @@
-# Generator of FrontEnd Best Practices as a boilerplate
-Since so many people are trying to start a frontend project, this generator is been created to give you the best tools that we can use in frontend at the moment,
+# Generator of Nextjs TypeScript StyledComponent as a boilerplate
+Since so many people are trying to start a frontend project, this generator is been created to give you the popular tools that we can use in frontend at the moment,
 
 ### Now we have:
 
