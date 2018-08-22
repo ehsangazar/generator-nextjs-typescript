@@ -17,13 +17,13 @@ Since so many people are trying to start a frontend project, this generator is b
 
 ```bash
 npm install -g yo
-npm install -g generator-frontend-best-practice-boilerplate
+npm install -g generator-nextjs-typescript
 ```
 
 Then generate your new project:
 
 ```bash
-yo frontend-best-practice-boilerplate
+yo nextjs-typescript
 ```
 
 ## Your contribution will be appreciated

@@ -6,7 +6,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the pioneering ${chalk.red('generator-frontend-best-practice-boilerplate')} generator!`)
+      yosay(`Welcome to the pioneering ${chalk.red('generator-nextjs-typescript')} generator!`)
     );
 
     const prompts = [

@@ -1,7 +1,7 @@
 {
-  "name": "generator-frontend-best-practice-boilerplate",
-  "version": "1.0.11",
-  "description": "This project is about gathering all the best tools to start a frontend project",
+  "name": "generator-nextjs-typescript",
+  "version": "1.1.1",
+  "description": "This project is about gathering nextjs and typescript tools to start a frontend project",
   "homepage": "",
   "author": {
     "name": "Ehsan Gazar",
@@ -81,6 +81,6 @@
       "prettier"
     ]
   },
-  "repository": "ehsangazar/generator-frontend-best-practice-boilerplate",
+  "repository": "ehsangazar/generator-nextjs-typescript",
   "license": "MIT"
 }
